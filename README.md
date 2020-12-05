@@ -1,17 +1,10 @@
-# whoisit
+<p align="center"><img align="center" src="./assets/logo.png" height="128" /></p>
+<h1 align="center">Who is It</h1>
 
-A new Flutter project.
+> App that uses tensorflow lite models to identify/Classify images, live camera stream.
 
-## Getting Started
+# Description
+Currently app consists of a tflite model that is trained to classify a image into Dog or Cat. The Data Set was taken from <a href="https://www.kaggle.com/tongpython/cat-and-dog">Kaggle-Cats and Dogs</a>. This model was trained using <a href="https://teachablemachine.withgoogle.com/">teachable machine with google/</a>. 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# whoisit" 
+# Future Updates
+Will support different Models and classifications
